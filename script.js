@@ -6,11 +6,11 @@ function scrollToElement(elementSelector, instance = 0){
 }
 
 
- const docsid = document.getElementById("docsid");
+//  const docsid = document.getElementById("docsid");
  
- docsid.addEventListener(`click`, () =>{
-    scrollToElement(".contact");
-    });
+//  docsid.addEventListener(`click`, () =>{
+//     scrollToElement(".contact");
+//     });
 const projectsid = document.getElementById("projectsid");
 
 projectsid.addEventListener("click", () =>{
@@ -24,7 +24,7 @@ featuredid.addEventListener("click", () =>{
 
 const aboutid = document.getElementById("aboutid");
 aboutid.addEventListener("click", () =>{
-    scrollToElement(".footer")
+    scrollToElement(".about")
 })
 
 const totop = document.getElementById("totop");
